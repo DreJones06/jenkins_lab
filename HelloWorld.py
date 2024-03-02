@@ -1,2 +1,2 @@
 print("Hello, worldd!")
-print("Wlcome to Github .. AJ!")
+print("Welcome to Github .. AJ!")
