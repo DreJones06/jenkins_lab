@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the code from your version control system
-                git 'https://github.com/muthuramanathanm/jenkins-cicd.git'
+                git 'https://github.com/DreJones06/jenkins_lab.git'
             }
         }
         
@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // Install Python dependencies using pip
                 //sh 'python3 -m pip install -r requirements.txt'
-                sh '/usr/local/bin/pip install -r requirements.txt'
+                sh 'pip install -r requirements.txt'
             }
         }
         
